@@ -720,7 +720,7 @@ func (g *GenericServiceImpl) GenericCall(ctx context.Context, method string, req
 
 HTTP/Map/JSON 映射的泛化调用虽然不需要生成代码，但需要使用者提供 IDL。
 
-目前 Kitex 有两种 IDLProvider 实现，使用者可以选择指定 IDL 路径，也可以选择传入 IDL 内容。当然也可以根据需求自行扩展 `generci.DescriptorProvider`。
+目前 Kitex 有两种 IDLProvider 实现，使用者可以选择指定 IDL 路径，也可以选择传入 IDL 内容。当然也可以根据需求自行扩展 `generic.DescriptorProvider`。
 
 ### 基于本地文件解析 IDL
 
